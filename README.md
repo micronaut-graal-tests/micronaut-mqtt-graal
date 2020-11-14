@@ -1,7 +1,16 @@
 # Micronaut MQTT Graal
 
-:warning: **The master branch is not used.**
+Test application for Micronaut MQTT v3 and GraalVM.
 
-Checkout branches for each specific version: `v3` and `v5`.
+To run Mosquitto broker in Docker:
 
+```
+docker run -it --rm -p 1883:1883 eclipse-mosquitto:1.6.12
+```
 
+To test the application:
+
+```
+curl localhost:8080/mqtt/send/Micronaut
+curl localhost:8080/mqtt/messages
+```
