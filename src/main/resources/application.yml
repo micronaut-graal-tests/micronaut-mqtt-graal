@@ -1,3 +1,8 @@
 micronaut:
   application:
     name: mqtt
+---
+mqtt:
+  client:
+    client-id: micronaut
+    server-uri: tcp://localhost:1883
