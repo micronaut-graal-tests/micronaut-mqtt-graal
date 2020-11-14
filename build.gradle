@@ -38,3 +38,7 @@ java {
     sourceCompatibility = JavaVersion.toVersion("1.8")
     targetCompatibility = JavaVersion.toVersion("1.8")
 }
+
+nativeImage {
+    imageName('mqtt')
+}
