@@ -25,7 +25,7 @@ dependencies {
     implementation("io.micronaut:micronaut-validation")
     implementation("io.micronaut:micronaut-runtime")
     implementation("io.micronaut:micronaut-http-client")
-    implementation("io.micronaut.mqtt:micronaut-mqttv3")
+    implementation("io.micronaut.mqtt:micronaut-mqttv5")
 
     runtimeOnly("ch.qos.logback:logback-classic")
 }

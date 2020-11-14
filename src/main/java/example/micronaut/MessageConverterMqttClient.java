@@ -1,7 +1,7 @@
 package example.micronaut;
 
 import io.micronaut.mqtt.annotation.Topic;
-import io.micronaut.mqtt.v3.annotation.MqttPublisher;
+import io.micronaut.mqtt.v5.annotation.MqttPublisher;
 
 @MqttPublisher
 public interface MessageConverterMqttClient {

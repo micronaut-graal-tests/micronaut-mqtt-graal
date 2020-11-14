@@ -1,6 +1,6 @@
 # Micronaut MQTT Graal
 
-Test application for Micronaut MQTT v3 and GraalVM.
+Test application for Micronaut MQTT v5 and GraalVM.
 
 To run Mosquitto broker in Docker:
 
