@@ -40,5 +40,5 @@ java {
 }
 
 nativeImage {
-    imageName('mqtt')
+    imageName('mqtt-v5')
 }

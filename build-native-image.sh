@@ -1,2 +1,2 @@
 ./gradlew nativeImage
-cp build/native-image/mqtt .
+cp build/native-image/mqtt-v5 .
