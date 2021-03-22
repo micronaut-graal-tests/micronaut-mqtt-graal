@@ -41,5 +41,4 @@ java {
 
 nativeImage {
     imageName('mqtt-v5')
-    args = ["-H:+StaticExecutableWithDynamicLibC"]
 }
