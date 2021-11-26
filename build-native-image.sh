@@ -1,2 +1,4 @@
-./gradlew nativeImage
-cp build/native-image/mqtt-v3 .
+#!/bin/bash
+
+./gradlew nativeCompile
+cp build/native/nativeCompile/mqtt-v3 .
